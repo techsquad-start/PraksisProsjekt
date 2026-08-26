@@ -25,16 +25,14 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b-4 border-brand-ink bg-brand-yellow">
       <div className="mx-auto flex min-h-[68px] max-w-[1180px] items-center justify-between gap-4 px-5">
         <Link href="/" className="flex items-center gap-3 no-underline">
-          <span className="grid place-items-center border border-black/10 bg-white p-1">
-            <Image
-              src={asset("/images/start-logo.png")}
-              alt="Start"
-              width={40}
-              height={40}
-              className="block h-10 w-10 object-contain"
-              priority
-            />
-          </span>
+          <Image
+            src={asset("/images/start-logo.png")}
+            alt="Start"
+            width={40}
+            height={40}
+            className="block h-10 w-10 object-contain"
+            priority
+          />
           <span className="flex flex-col leading-[1.05]">
             <span className="font-display text-[23px] font-extrabold uppercase tracking-[0.06em] text-brand-ink">
               TechSquad
