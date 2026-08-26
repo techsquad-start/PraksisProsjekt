@@ -40,6 +40,7 @@ export const teamMembers: TeamMember[] = [
     name: "Taavi-Topias Henell",
     role: "Utvikler",
     initials: "TH",
+    image: "/images/taavi.jpg",
     linkedin: "https://www.linkedin.com/in/taavith/",
     github: "https://github.com/HenellTT",
     bio: "Taavi-Topias studerer IT og informasjonssystemer ved UiA (2024–2027). Han har en internasjonal bakgrunn med flytende norsk, engelsk og finsk. Han har tekniske ferdigheter innen HTML, CSS, JavaScript, C#, Python og SQL, og kombinerer strukturert arbeidserfaring med et voksende fokus på systemutvikling.",
