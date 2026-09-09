@@ -21,4 +21,14 @@ export const dagbokEntries: DagbokEntry[] = [
     title: "Fra skisse til prototype",
     body: "Denne uken har vi ferdigstilt navigasjonskartet og wireframene. Med designgrunnlaget på plass gikk vi videre og lagde en fungerende prototype av applikasjonen.",
   },
+  {
+    week: "Uke 36",
+    title: "Visning av prototype",
+    body: "Vi viste første utkast av prototypen til veilederne våre og fikk gode tilbakemeldinger. Videreutviklet frontend, la til flere funskjoner."
+  },
+  {
+    week: "Uke 37",
+    title: "Utvikling av prototype",
+    body: "Trenerene har ferdigutviklet spørsmålene vi skal bruke. De kom også med flere ønsker og implementeringer de ønsker i løsningen. Fikk gjennomført noen brukertester for å identifisere endringer som må gjøres i design. Jobbet med dette 9/9.",
+  },
 ]
