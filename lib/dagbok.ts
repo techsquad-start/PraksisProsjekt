@@ -31,4 +31,9 @@ export const dagbokEntries: DagbokEntry[] = [
     title: "Utvikling av prototype",
     body: "Trenerene har ferdigutviklet spørsmålene vi skal bruke. De kom også med flere ønsker og implementeringer de ønsker i løsningen. Fikk gjennomført noen brukertester for å identifisere endringer som må gjøres i design. Jobbet med dette 9/9.",
   },
+  {
+    week: "Uke 38",
+    title: "Presentasjon og Status 1",
+    body: "Vi presenterte prosjektet for de andre studentgruppene og fullførte Status 1. Vi fikk også flere tilbakemeldinger og ønsker om nye funksjoner i appen. I tillegg jobbet vi med å forbedre brukergrensesnittet, noe som har vært en veldig viktig prioritet.",
+  },
 ]
