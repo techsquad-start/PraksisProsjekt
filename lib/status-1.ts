@@ -42,7 +42,7 @@ export const status1Sections: StatusSection[] = [
     title: "Utfordringer og spennende erfaringer",
     paragraphs: [
       "I starten var oppgaven litt uklar, og det tok litt tid før vi fikk et tydelig bilde av hva klubben trengte. Løsningen skal også håndtere opplysninger om mindreårige. Derfor må vi tenke nøye gjennom personvern og rollebasert tilgang, slik at ingen ser mer enn de trenger. I tillegg skal svært ulike brukere bruke løsningen, fra unge spillere og foresatte til trenere og administratorer, og den må være enkel for alle.",
-      "Det er spennende å jobbe med en klubb som nylig har rykket opp til Eliteserien (Rykker snart ned…) og tydelig satser på spillerutvikling. Trenerne er engasjerte og de har ferdigstilt spørsmålene vi skal bruke, og har kommet med nye ønsker underveis. Det gir oss nyttige innspill, men vi må også prioritere hva som er viktigst å få på plass først.",
+      "Det er spennende å jobbe med en klubb som nylig har rykket opp til Eliteserien og tydelig satser på spillerutvikling. Trenerne er engasjerte og de har ferdigstilt spørsmålene vi skal bruke, og har kommet med nye ønsker underveis. Det gir oss nyttige innspill, men vi må også prioritere hva som er viktigst å få på plass først.",
     ],
     image: {
       src: "/images/status-1/gjennomgang.jpg",
