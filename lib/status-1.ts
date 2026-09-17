@@ -11,6 +11,24 @@ export type StatusSection = {
   image?: StatusImage
 }
 
+export type StatusVideo = {
+  title: string
+  src: string
+  poster: string
+  width: number
+  height: number
+}
+
+// Videoen ligger i public/videos/status-1/ og er komprimert til under
+// GitHubs grense på 100 MB per fil.
+export const status1Video: StatusVideo = {
+  title: "Statusvideo",
+  src: "/videos/status-1/praksis-status-1.mp4",
+  poster: "/images/status-1/video-poster.jpg",
+  width: 1920,
+  height: 1080,
+}
+
 // Bildene ligger i public/images/status-1/.
 export const status1Sections: StatusSection[] = [
   {
