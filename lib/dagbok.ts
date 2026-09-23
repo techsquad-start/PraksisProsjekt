@@ -36,4 +36,9 @@ export const dagbokEntries: DagbokEntry[] = [
     title: "Presentasjon og Status 1",
     body: "Vi presenterte prosjektet for de andre studentgruppene og fullførte Status 1. Vi fikk også flere tilbakemeldinger og ønsker om nye funksjoner i appen. I tillegg jobbet vi med å forbedre brukergrensesnittet, noe som har vært en veldig viktig prioritet.",
   },
+  {
+    week: "Uke 39",
+    title: "Nye funksjoner og forbedringer",
+    body: "Denne uken har vi jobbet med å legge til ekstra funksjoner som Start har etterspurt, i tillegg til å gjøre mindre forbedringer på eksisterende funksjoner.",
+  },
 ]
