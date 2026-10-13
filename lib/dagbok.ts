@@ -39,6 +39,21 @@ export const dagbokEntries: DagbokEntry[] = [
   {
     week: "Uke 39",
     title: "Nye funksjoner og forbedringer",
-    body: "Denne uken har vi jobbet med å legge til ekstra funksjoner som Start har etterspurt, i tillegg til å gjøre mindre forbedringer på eksisterende funksjoner.",
+    body: "Denne uken la vi til flere funksjoner som Start har etterspurt. Trenernes Excel-ark for suksesjonsplanlegging ble bygget inn som egne sider i appen, med 1., 2. og 3. posisjon og oversikt over hvem som har vurdert spilleren. Vi lagde også «beste ellever»: en bane i riktig målestokk med 3-5-2, der trenerne kan flytte spillere rundt og se vurderingene endre seg underveis. I tillegg blir spillerne nå ønsket velkommen med fornavn og bilde når de logger inn, vi bruker spillernavn i stedet for koder, og vi utvidet Identity-sidene med oversikt, nøkkelinnsikt og utvikling.",
+  },
+  {
+    week: "Uke 40",
+    title: "Høstferie",
+    body: "Høstferie.",
+  },
+  {
+    week: "Uke 41",
+    title: "Fra testdata til ekte data",
+    body: "Denne uken erstattet vi testdataene med ekte spillerstaller og godkjente spillerbilder fra IK Start, og lagene har fått klubbens egne navn: G14, G15 og G17. Vi lagde også en import av trenernes utfylte ark for suksesjonsplanlegging, slik at løsningen nå bare viser ekte data. Prosjektet ble oppgradert til .NET 10 og gjort klart for drift på server. I tillegg ryddet vi i dokumentasjonen, la til egne feilsider og egen favicon, og skjulte appen for søkemotorer.",
+  },
+  {
+    week: "Uke 42",
+    title: "Spilletid og posisjoner",
+    body: "Trenerne ønsket å se spilletid ved siden av suksesjonsplanleggingen, så vi har lagt til en funksjon der de laster opp sitt ukentlige ark med minutter og posisjoner. Arket vises per lag og per spiller. Har en spiller ingen vurderinger i inneværende periode, vises nå vurderingene fra forrige periode. Vi har også stengt databasetabellene for Supabase sitt Data API og oppdatert dokumentasjonen og Sikt-meldingen nå som løsningen inneholder ekte data.",
   },
 ]
