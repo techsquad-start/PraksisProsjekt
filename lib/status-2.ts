@@ -22,9 +22,9 @@ export const status2Sections: StatusSection[] = [
     ],
     image: {
       src: "/images/status-2/beste-ellever.jpg",
-      alt: "Beste ellever i StartCompass: en bane med formasjonen 3-5-2, lagvurdering per lagdel og en liste med innbyttere.",
+      alt: "Beste ellever i StartCompass: en bane med formasjonen 3-5-2 og en liste med innbyttere. Vurderingene er sladdet.",
       width: 1966,
-      height: 1522,
+      height: 1204,
     },
   },
   {
