@@ -20,12 +20,6 @@ export const status2Sections: StatusSection[] = [
       "Trenernes Excel-ark for suksesjonsplanlegging er nå bygget inn i appen. Hver trener vurderer spillerne jevnlig, og løsningen samler vurderingene og viser posisjoner, potensial og hvem som har vurdert. Har en spiller ingen vurderinger i inneværende periode, vises de fra forrige periode.",
       "Vi har også laget «beste ellever», en bane i riktig målestokk med formasjonen 3-5-2 som trenerne ønsket. Trenerne kan flytte spillere rundt og se vurderingene endre seg underveis, inspirert av Football Manager. Den nyeste funksjonen er spilletid og posisjoner: trenerne laster opp sitt ukentlige ark, og løsningen viser minutter og posisjoner per lag og per spiller. Slik kan en spiller som er vurdert med høyt potensial ses opp mot hvor mye og hvor varierte posisjoner hen faktisk får spille. I tillegg blir spillerne nå ønsket velkommen med fornavn og bilde når de logger inn.",
     ],
-    image: {
-      src: "/images/status-2/beste-ellever.jpg",
-      alt: "Beste ellever i StartCompass: en bane med formasjonen 3-5-2 og en liste med innbyttere. Vurderingene er sladdet.",
-      width: 1966,
-      height: 1204,
-    },
   },
   {
     title: "Fra testdata til ekte data",
