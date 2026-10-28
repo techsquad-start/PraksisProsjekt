@@ -1,14 +1,23 @@
 import type { StatusSection, StatusVideo } from "@/lib/status-1"
 
-// Videoen ligger i public/videos/status-2/ og er konvertert fra iPhone-HEVC
-// til H.264/AAC med faststart, slik at den spilles i alle nettlesere.
-export const status2Video: StatusVideo = {
-  title: "Statusvideo",
-  src: "/videos/status-2/praksis-status-2.mp4",
-  poster: "/images/status-2/video-poster.jpg",
-  width: 1920,
-  height: 1080,
-}
+// Videoene ligger i public/videos/status-2/ som H.264/AAC med faststart, slik
+// at de spilles i alle nettlesere. Statusvideoen er konvertert fra iPhone-HEVC.
+export const status2Videos: StatusVideo[] = [
+  {
+    title: "Statusvideo",
+    src: "/videos/status-2/praksis-status-2.mp4",
+    poster: "/images/status-2/video-poster.jpg",
+    width: 1920,
+    height: 1080,
+  },
+  {
+    title: "Kort gjennomgang av prosjektet",
+    src: "/videos/status-2/kort-gjennomgang.mp4",
+    poster: "/images/status-2/kort-gjennomgang-poster.jpg",
+    width: 1920,
+    height: 1080,
+  },
+]
 
 // Bildene ligger i public/images/status-2/.
 export const status2Sections: StatusSection[] = [
