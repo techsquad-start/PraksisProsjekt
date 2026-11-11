@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { PageHero } from "@/components/page-hero"
 import { dagbokEntries } from "@/lib/dagbok"
 
@@ -37,7 +38,16 @@ export default function DagbokPage() {
         </ol>
 
         <p className="mx-auto mt-12 max-w-[820px] border border-l-[6px] border-border border-l-brand-blue bg-card px-7 py-5 text-[15px] leading-[1.7] text-muted-foreground">
-          Dagboken oppdateres fortløpende gjennom praksisperioden.
+          Dagboken ble ført gjennom hele praksisperioden, fra første møte med IK
+          Start i uke 33 til siste uke i november. Våre samlede refleksjoner over
+          perioden finner du på{" "}
+          <Link
+            href="/refleksjon"
+            className="font-semibold text-brand-blue underline"
+          >
+            Refleksjon
+          </Link>
+          .
         </p>
       </section>
     </div>
